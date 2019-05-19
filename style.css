@@ -16,6 +16,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: 300;
 }
+
 /* Input field */
 #input-body {
     margin-bottom: 30px;
@@ -31,7 +32,6 @@ h3 {
 #input-email:invalid {
     border: 1px solid hsl(354, 100%, 66%);
 }
-/*  */
 
 /* Button styles */
 button {
@@ -64,11 +64,16 @@ button:focus {
 button:active {
     transform: scale(0.99);
 }
-/*  */
 
 footer, .attribution, .attribution>a {
     font-size: 0.75rem;
     color: hsl(0, 0%, 59%);
+}
+
+#icons {
+    font-size: 1.2rem;
+    color: hsl(223, 87%, 63%);
+    margin-bottom: 10px;
 }
 
 /* Shared styles */
@@ -86,4 +91,20 @@ footer, .attribution, .attribution>a {
     font-weight: 300;
     color: hsl(0, 0%, 59%);
 }
-/*  */
+
+/* Responsive styles */
+@media screen and (max-width: 710px) {
+    #illustration {
+        width: 95%;
+    }
+
+    #input-email {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
